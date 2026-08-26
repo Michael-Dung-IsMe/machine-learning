@@ -1,0 +1,22 @@
+# Python Byte-compiled / Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data files & directories
+data/raw/
+data/processed/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+
+/notebooks
+draft_vi.md
