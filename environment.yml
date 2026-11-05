@@ -1,0 +1,16 @@
+name: ml-implementation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9,<3.12
+  - pip
+  - numpy>=1.23.0
+  - pandas>=1.5.0
+  - matplotlib>=3.6.0
+  - scikit-learn>=1.2.0
+  - scipy>=1.10.0
+  - jupyterlab>=4.0.0
+  - ipykernel>=6.20.0
+  - pip:
+      - pytest>=7.0.0

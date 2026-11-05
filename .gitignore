@@ -1,0 +1,11 @@
+.agents/
+.vscode/
+.tmp-jupyter/
+
+scripts/
+docs/
+tests/
+
+TEST_INFRA.md
+TEST_READY.md
+.gitkeep
