@@ -11,6 +11,8 @@ machine-learning/
 ├── linear-regression/    # Hồi quy tuyến tính và các phương pháp cải thiện
 ├── logistic-regression/  # Phân loại bằng hồi quy logistic
 ├── knn-prob-model/       # KNN và các mô hình xác suất Gaussian
+├── random-forest/        # Decision Trees, Random Forest và Gradient Boosting
+├── svm/                  # SVM tuyến tính và SVM dùng kernel
 ├── environment.yml       # Khai báo môi trường Conda dùng chung
 └── README.md             # Tổng quan repo và hướng dẫn cài đặt
 ```
@@ -19,11 +21,15 @@ Trong mỗi thư mục bài tập, mở `README.md` để xem cấu trúc chi ti
 
 ## Danh sách bài tập đã upload
 
+Thời gian là ngày bài tập được đưa vào Git lần đầu. Bảng chỉ liệt kê các thư mục hiện có trên `origin/master`.
+
 | Tên bài | Thời gian | Nội dung chính | Đường dẫn tương đối |
 |---|---|---|---|
 | Linear Regression | 2026-08-26 | Dự đoán số lượt thuê xe đạp; cài đặt hồi quy tuyến tính, mở rộng đặc trưng và regularization. | [linear-regression/](linear-regression/README.md) |
 | Logistic Regression | 2026-11-05 | Phân loại giống lúa mì Seeds; cài đặt logistic regression bằng NumPy, so sánh OvR với multinomial và khảo sát ngưỡng phân loại. | [logistic-regression/](logistic-regression/README.md) |
 | KNN & Probabilistic Models | 2026-11-05 | Phân loại giống gạo Cammeo/Osmancik; cài đặt KNN, Gaussian Naive Bayes và Gaussian full covariance, rồi so sánh kết quả. | [knn-prob-model/](knn-prob-model/README.md) |
+| Decision Trees, Random Forest & Gradient Boosting | 2026-11-05 | Phân loại giống gạo; khảo sát cây quyết định, cắt tỉa, bagging, Random Forest và Gradient Boosting. | [random-forest/](random-forest/README.md) |
+| Support Vector Machine (SVM) | 2026-11-05 | Phân loại giống gạo; so sánh SVM tuyến tính với kernel polynomial/RBF, scaling và lựa chọn siêu tham số. | [svm/](svm/README.md) |
 
 ## Yêu cầu phiên bản và môi trường
 
